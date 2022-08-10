@@ -73,6 +73,8 @@ iss_sec_entity_hist <- tbl(factset_db, "icc_v2_icc_sec_entity_hist") %>%
 
 
 
+dbDisconnect(factset_db)
+
 
 
 
